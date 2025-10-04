@@ -5,11 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "npx serve . -p 3000",
-    "dev": "npx live-server --port=3000 --open=/index.html",
-    "build": "echo 'No build process needed for static site'",
-    "deploy": "gh-pages -d .",
-    "test": "echo 'No tests specified'",
-    "lint": "echo 'No linting configured'"
+    "dev": "npx live-server --port=3000 --open=/index.html"
   },
   "keywords": [
     "mathematics",
@@ -17,34 +13,13 @@
     "matrices",
     "visualization",
     "plotly",
-    "interactive",
-    "physics",
-    "linear-algebra",
-    "mathematical-tools",
-    "data-visualization"
+    "interactive"
   ],
-  "author": "Your Name <your-email@example.com>",
+  "author": "Santosh Maurya",
   "license": "MIT",
-  "homepage": "https://yourusername.github.io/vector-matrix-visualizer",
+  "homepage": "https://joker-pyc.github.io/vector-matrix-visualizer",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/vector-matrix-visualizer.git"
-  },
-  "bugs": {
-    "url": "https://github.com/yourusername/vector-matrix-visualizer/issues"
-  },
-  "devDependencies": {
-    "gh-pages": "^6.0.0",
-    "live-server": "^1.2.2",
-    "serve": "^14.2.1"
-  },
-  "engines": {
-    "node": ">=14.0.0",
-    "npm": ">=6.0.0"
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ]
+    "url": "https://github.com/joker-pyc/vector-matrix-visualizer.git"
+  }
 }
