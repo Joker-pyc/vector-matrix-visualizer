@@ -1,0 +1,50 @@
+{
+  "name": "vector-matrix-visualizer",
+  "version": "1.0.0",
+  "description": "Universal Vector & Matrix Visualizer - Advanced mathematical visualization tool",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve . -p 3000",
+    "dev": "npx live-server --port=3000 --open=/index.html",
+    "build": "echo 'No build process needed for static site'",
+    "deploy": "gh-pages -d .",
+    "test": "echo 'No tests specified'",
+    "lint": "echo 'No linting configured'"
+  },
+  "keywords": [
+    "mathematics",
+    "vectors",
+    "matrices",
+    "visualization",
+    "plotly",
+    "interactive",
+    "physics",
+    "linear-algebra",
+    "mathematical-tools",
+    "data-visualization"
+  ],
+  "author": "Your Name <your-email@example.com>",
+  "license": "MIT",
+  "homepage": "https://yourusername.github.io/vector-matrix-visualizer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/vector-matrix-visualizer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/vector-matrix-visualizer/issues"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0",
+    "live-server": "^1.2.2",
+    "serve": "^14.2.1"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
